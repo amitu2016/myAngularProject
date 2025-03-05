@@ -1,10 +1,12 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { TestComponent } from './test/test.component';
+import { KeyboardEventsComponent } from './keyboard-events/keyboard-events.component';
+import { CounterAssignmentComponent } from './counter-assignment/counter-assignment.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, TestComponent],
+  imports: [RouterOutlet, TestComponent, KeyboardEventsComponent, CounterAssignmentComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
