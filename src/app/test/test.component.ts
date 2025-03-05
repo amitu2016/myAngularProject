@@ -7,5 +7,10 @@ import { Component } from '@angular/core';
   styleUrl: './test.component.css'
 })
 export class TestComponent {
-
+   inputValue: string = 'Hello';
+   isDisabled: boolean = false;
+   imgSrc: string = '/assets/Angular.png';
+   display(msg: string){
+      alert(msg);
+   }
 }

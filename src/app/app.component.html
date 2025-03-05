@@ -1,2 +1,8 @@
-<h1>Welcome to the page!</h1>
-<app-test></app-test>
+<div class="container">
+    <h1>Counter Example</h1>
+    <div class="btn-container">
+        <button (click)="counter('decrement')">--</button>
+        <p>{{ count }}</p>
+        <button (click)="counter('increment')">++</button>
+    </div>
+</div>

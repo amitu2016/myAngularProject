@@ -9,5 +9,12 @@ import { TestComponent } from './test/test.component';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'myAngularProject';
+  count: number = 0;
+  counter(type: string) {
+    if (type === 'decrement') {
+      this.count--;
+    } else if (type === 'increment') {        
+      this.count++;
+    }
+  }
 }
