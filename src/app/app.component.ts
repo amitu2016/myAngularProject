@@ -3,10 +3,12 @@ import { RouterOutlet } from '@angular/router';
 import { TestComponent } from './test/test.component';
 import { KeyboardEventsComponent } from './keyboard-events/keyboard-events.component';
 import { CounterAssignmentComponent } from './counter-assignment/counter-assignment.component';
+import { TwoWayBindingComponent } from './two-way-binding/two-way-binding.component';
+import { TwoWayBindingTaskComponent } from './two-way-binding-task/two-way-binding-task.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, TestComponent, KeyboardEventsComponent, CounterAssignmentComponent],
+  imports: [RouterOutlet, TwoWayBindingTaskComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

@@ -8,12 +8,11 @@ import { Component } from '@angular/core';
 })
 export class CounterAssignmentComponent {
     counter: number = 0;
-    onKeydown(e: KeyboardEvent){
-        alert('Key pressed');
-        if(e.key === 'ArrowUp'){
-            this.counter++;
-        } else if(e.key === 'ArrowDown'){
-            this.counter--;
-        }
+  onKeydown(event: KeyboardEvent) {
+    if (event.key === 'ArrowUp') {
+      this.counter++;
+    } else if (event.key === 'ArrowDown') {
+      this.counter--;
     }
+  }
 }

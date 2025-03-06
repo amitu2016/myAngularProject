@@ -1,5 +1,5 @@
-<div class="counter-container">
-    <p class="counter"  (keydown)="onKeydown($event)">Counter: {{ counter }}</p>
+<div class="counter-container" tabindex="0" (keydown)="onKeydown($event)">
+    <p class="counter">Counter: {{ counter }}</p>
     <p class="instruction">
         Click the up and down keys to <i><b>increment/decrement</b></i> the counter.
     </p>
