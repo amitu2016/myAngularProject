@@ -5,10 +5,11 @@ import { KeyboardEventsComponent } from './keyboard-events/keyboard-events.compo
 import { CounterAssignmentComponent } from './counter-assignment/counter-assignment.component';
 import { TwoWayBindingComponent } from './two-way-binding/two-way-binding.component';
 import { TwoWayBindingTaskComponent } from './two-way-binding-task/two-way-binding-task.component';
+import { SimpleCartCalculationComponent } from './simple-cart-calculation/simple-cart-calculation.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, TwoWayBindingTaskComponent],
+  imports: [RouterOutlet, SimpleCartCalculationComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
