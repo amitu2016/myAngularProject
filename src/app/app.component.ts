@@ -6,10 +6,11 @@ import { CounterAssignmentComponent } from './counter-assignment/counter-assignm
 import { TwoWayBindingComponent } from './two-way-binding/two-way-binding.component';
 import { TwoWayBindingTaskComponent } from './two-way-binding-task/two-way-binding-task.component';
 import { SimpleCartCalculationComponent } from './simple-cart-calculation/simple-cart-calculation.component';
+import { StructuralDirectivesComponent } from './structural-directives/structural-directives.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, SimpleCartCalculationComponent],
+  imports: [RouterOutlet, SimpleCartCalculationComponent, StructuralDirectivesComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

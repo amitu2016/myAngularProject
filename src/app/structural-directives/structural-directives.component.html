@@ -1,0 +1,9 @@
+<div class="form-container">
+    <p>Number:</p>
+    <input type="number" class="num-input" [(ngModel)]="num" min="0">
+    <h1 *ngIf="num > 10">{{ num }} is greater than 10</h1>
+    <h1 *ngIf="num < 10">{{ num }} is less than 10</h1>
+    <h1 *ngIf="num == 10">{{ num }} is equal to 10</h1>
+</div>
+
+
