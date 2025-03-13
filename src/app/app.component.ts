@@ -7,10 +7,12 @@ import { TwoWayBindingComponent } from './two-way-binding/two-way-binding.compon
 import { TwoWayBindingTaskComponent } from './two-way-binding-task/two-way-binding-task.component';
 import { SimpleCartCalculationComponent } from './simple-cart-calculation/simple-cart-calculation.component';
 import { StructuralDirectivesComponent } from './structural-directives/structural-directives.component';
+import { StructuralDirectivesAssignmentComponent } from './structural-directives-assignment/structural-directives-assignment.component';
+import { NgforDirectiveComponent } from './ngfor-directive/ngfor-directive.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, SimpleCartCalculationComponent, StructuralDirectivesComponent],
+  imports: [RouterOutlet, NgforDirectiveComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

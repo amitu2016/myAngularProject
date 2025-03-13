@@ -1,0 +1,16 @@
+<div class="container">
+
+    <div *ngFor="let value of fullStackDev; trackBy: trackByItemId">
+        <ul>
+            <li>{{value.id}}</li>
+            <li>{{value.name}}</li>
+        </ul>
+        
+    </div>
+    <button (click)="updateItem()">Update</button>
+
+    <div *ngFor="let item of items; index as i">
+        <p>{{ i + 1 }}.{{ item }}</p>
+    </div>
+
+</div>
